@@ -1,0 +1,148 @@
+/* General Reset */
+body {
+    font-family: Tiny5, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #578262;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  #new-book-button {
+    padding: 10px 15px;
+    background-color: #0f441d;
+    color: #80c07b;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  
+  #new-book-button:hover {
+    background-color: #648869;
+  }
+  
+  /* Form styles */
+  #book-form {
+    display: none;
+    background-color: #6b995b;
+    border: 7px solid #2d422d;
+    border-radius: 1px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #book-form h2 {
+    margin: 0 0 15px;
+  }
+  
+  #book-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #book-form input {
+    width: 98%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #435a36;
+    border-radius: 2.5px;
+  }
+  
+  #book-form .form-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #book-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  
+  #book-form button[type="submit"] {
+    background-color: #0f441d;
+    color: #80c07b;
+  }
+  
+  #book-form button[type="submit"]:hover {
+    background-color: #0f441d;
+  }
+  
+  #book-form button[type="button"] {
+    background-color: #783a40;
+    color: #ffffff;
+  }
+  
+  #book-form button[type="button"]:hover {
+    background-color: #783a40;
+  }
+  
+  /* Library styles */
+  .library {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .book-card {
+    background-color: #6b995b;
+    border: 5px solid #2d422d;
+    border-radius: 1px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-card h3 {
+    margin: 0 0 10px;
+    font-size: 1.25rem;
+  }
+  
+  .book-card p {
+    margin: 5px 0;
+  }
+  
+  .book-card button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .book-card button:nth-child(1) {
+    background-color: #ffffff;
+    color: white;
+  }
+  
+  .book-card button:nth-child(1):hover {
+    background-color: #ffffff;
+  }
+  
+  .book-card button:nth-child(2) {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+  }
+  
+  .book-card button:nth-child(2):hover {
+    background-color: #ffffff;
+  }
